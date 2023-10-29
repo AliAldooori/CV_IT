@@ -1,0 +1,46 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: auto auto  ;
+    grid-template-areas: "photo name name name name name  "
+    "section section section section  sidebar sidebar " ;
+}
+.photo{
+    grid-area: photo ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+.name{
+    grid-area: name;
+    background-color:rgb(42, 33, 33);
+    color: rgb(207, 205, 205);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  justify-content: flex-end;
+  margin-left: -18.55px;
+  margin-bottom: 5px;
+  }
+  #name{
+    margin-left: 50px;
+  }
+  .email{
+    margin-left: 50px;
+  }
+.section{
+    grid-area: section;
+    margin: 30px;
+}
+.sidebar{
+    grid-area: sidebar;
+    margin: 10px;
+    margin-top: 30px;
+}
