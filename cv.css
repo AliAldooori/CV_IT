@@ -66,4 +66,10 @@ a{
 .parent{
   width: 667px;
 }
+nav{
+  display: flex;
+  flex-wrap: wrap;
+}
+a{
+margin:5px;}
 }
