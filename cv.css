@@ -71,6 +71,9 @@ nav{
   flex-wrap: wrap;
 }
 a{
-margin:5px;}
-
+margin:5px;
+}
+.name{
+ margin-top: -4.955px;
+}
 }
